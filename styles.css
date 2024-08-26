@@ -1,0 +1,39 @@
+.frame {
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+}
+
+.frameimg {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    line-height: 10px;
+    margin-top: 30px;
+}
+
+.img {
+    display: flex;
+    justify-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+p {
+    color: gray;
+    font-size: 25px;
+}
+
+.framecard {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    line-height: 10px;
+}
